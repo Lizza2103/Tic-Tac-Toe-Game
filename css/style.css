@@ -1,0 +1,73 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+.kasten {
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 75px;
+}
+.feld {
+    height: 150px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 150%;
+}
+#feld-1 {
+    background-color: rgb(255, 255, 255);
+    border-bottom: black solid 1px;
+    border-right: black solid 1px;
+}
+#feld-2 {
+    background-color: rgb(255, 255, 255);
+    border-bottom: black solid 1px;
+}
+#feld-3 {
+    background-color: rgb(255, 255, 255);
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+}
+#feld-4 {
+    background-color: rgb(255, 255, 255);
+}
+#feld-5 {
+   background-color: rgb(255, 255, 255);
+   border-left: black solid 1px;
+   border-right: black solid 1px;
+}
+#feld-6 {
+    background-color: rgb(255, 255, 255);
+}
+#feld-7 {
+    background-color: rgb(255, 255, 255);
+    border-top: black solid 1px;
+    border-right: black solid 1px;
+}
+#feld-8 {
+    background-color: rgb(255, 255, 255);
+    border-top: black solid 1px;
+}
+#feld-9 {
+    background-color: rgb(255, 255, 255);
+    border-top: black solid 1px;
+    border-left: black solid 1px;
+}
+.playerPanel {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+.player-panel-0 {
+    
+}
+.player-panel-1 {
+}
+.huhn {
+    width: 100px;
+    height: 100px;
+    border: black dashed 1px;
+}
+.active {
+    font-weight: bold;
+    color: red;
+}
