@@ -1,10 +1,13 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {margin: 0; height: 100%; overflow: hidden; background: linear-gradient(70deg, #15CA75, #2A7853);}
 .kasten {
     background-color: white;
-    width: 600px;
+    width: 500px;
     height: 450px;
     margin: auto;
-    margin-top: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 50px 50px 50px 50px;
 }
 .feld {
     height: 150px;
@@ -54,14 +57,36 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .playerPanel {
     text-align: center;
-    font-size: 200%;
+    font-size: 100%;
     font-weight: bold;
+    
+    
+    
 }
 .player-panel-0 {
     
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    
+        
 }
 .player-panel-1 {
+    
+    background-color: white;
+    position: absolute;
+    margin-right: 0px;
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    margin-top: 100px;
+    
 }
+
 .huhn {
     width: 100px;
     height: 100px;
@@ -69,5 +94,18 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .active {
     font-weight: bold;
-    color: red;
+    color: #15CA75;
+}
+
+#players {
+    background-color: white;
+    width: 600px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+
+#test {
+    width: 50px;
+    height: 50px;
+    background-color: white;
 }
