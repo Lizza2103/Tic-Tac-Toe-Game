@@ -59,7 +59,7 @@ html, body {margin: 0; height: 100%; overflow: hidden; background: linear-gradie
     text-align: center;
     font-size: 100%;
     font-weight: bold;
-    
+    border-radius: 15px 15px 15px 15px;
     
     
 }
